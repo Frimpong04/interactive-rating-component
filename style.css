@@ -15,3 +15,67 @@ html {
     --text-color: hsl(217, 12%, 63%);
     --rating-bg: hsl(216, 12%, 54%);
 }
+
+p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5em;
+}
+/* BODY STYLES */
+body {
+    background-color: var(--body-bg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD STYLES */
+main {
+    background-color: var(--card-bg);
+    border-radius:2rem;
+    width: 38rem;
+    padding: 2.5em;
+}
+
+img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: var(--rating-bg);
+    padding:0.5rem;
+    margin-bottom: 2em;
+}
+
+h1 {
+    color: var(--heading-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.rating-container {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: space-around;
+}
+.rating {
+    /* border: 1px solid red; */
+    padding:0.7em 0.9em;
+    width: 3.5rem;
+    height:3.5rem;
+    background-color: var(--rating-bg);
+    display: block;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    width:100%;
+    padding:0.5em;
+    border-radius: 2rem;
+    font-size:1.8rem;
+    color:var(--text-color);
+}
