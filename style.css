@@ -34,7 +34,7 @@ body {
 
 /* CARD STYLES */
 main {
-    background-image: radial-gradient(circle at top, hsl(216, 12%, 54%) 2%, hsl(213, 19%, 18%));
+    background-image: radial-gradient(circle at top, var(--rating-bg) 8%, var(--card-bg));
     border-radius:2rem;
     width: 38rem;
     padding: 2.5em;
@@ -44,7 +44,7 @@ img{
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    background-color: var(--rating-bg);
+    background-color:  hsla(213, 19%, 18%, 0.5);
     padding:1.0rem;
     margin-bottom: 2em;
 }
@@ -67,7 +67,7 @@ h1 {
     padding:0.9em 1.25em;
     width: 4.5rem;
     height:4.5rem;
-    background-color: var(--rating-bg);
+    background-color:  hsla(213, 19%, 18%, 0.6);
     display: block;
     border-radius: 50%;
     color: var(--text-color);
@@ -102,4 +102,12 @@ h1 {
     color:var(--primary-color);
     background-color:var(--heading-color);
     cursor: pointer;
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width:375px) {
+    main {
+        width: 90%;
+    }
 }
