@@ -126,7 +126,7 @@ h1 {
     padding:0.3em 0.8em;
     border-radius:2rem;
     border:none;
-    background-color:hsla(213, 19%, 18%,0.1);
+    background-color:hsla(213, 19%, 18%,0.15);
     color:var(--primary-color);
 }
 
