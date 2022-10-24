@@ -5,3 +5,13 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+    --primary-color:  hsl(25, 97%, 53%);
+    --body-bg: hsl(216, 12%, 8%);
+    --card-bg: hsl(213, 19%, 18%);
+    --heading-color:hsl(0, 0%, 100%);
+    --text-color: hsl(217, 12%, 63%);
+    --rating-bg: hsl(216, 12%, 54%);
+}
